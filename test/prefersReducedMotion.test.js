@@ -2,7 +2,7 @@
 
 import { mockWindowMatchMedia } from '@magica11y/cauldron';
 
-import prefersReducedMotion, { motionPreferences, type MotionPreference } from '../../src/prefersReducedMotion';
+import prefersReducedMotion, { motionPreferences, type MotionPreference } from '../src';
 
 describe('prefersReducedMotion()', () => {
   it('returns a motion preference when media-query matches', () => {

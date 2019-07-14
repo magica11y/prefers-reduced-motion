@@ -10,7 +10,7 @@ const webpackMergeWithStrategy = webpackMerge.strategy({
 
 module.exports = webpackMergeWithStrategy(cauldronWebpackConfig, {
   entry: {
-    prefersReducedMotion: './src/prefersReducedMotion',
+    prefersReducedMotion: './src',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
