@@ -1,3 +1,5 @@
+// See https://webpack.js.org/configuration
+
 const cauldronWebpackConfig = require('@magica11y/cauldron/webpack.config.js');
 const path = require('path');
 const webpackMerge = require('webpack-merge');
