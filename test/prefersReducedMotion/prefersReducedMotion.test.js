@@ -1,8 +1,8 @@
 // @flow
 
-import { prefersReducedMotion, motionPreferences, type MotionPreference } from '../../src';
+import { mockWindowMatchMedia } from '@magica11y/cauldron';
 
-import mockWindowMatchMedia from '../mockWindowMatchMedia';
+import prefersReducedMotion, { motionPreferences, type MotionPreference } from '../../src/prefersReducedMotion';
 
 describe('prefersReducedMotion()', () => {
   it('returns a motion preference when media-query matches', () => {
