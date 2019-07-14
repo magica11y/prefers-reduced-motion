@@ -61,7 +61,7 @@
     "lib"
   ],
   "dependencies": {
-    "@magica11y/cauldron": "^1.0.1",
+    "@magica11y/cauldron": "^1.0.2",
     "webpack-merge": "^4.2.1"
   }
 }
