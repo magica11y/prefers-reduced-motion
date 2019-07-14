@@ -15,7 +15,7 @@
     "clean:nuke": "./node_modules/@magica11y/cauldron/build/clean-nuke.sh",
     "test": "./node_modules/@magica11y/cauldron/build/test.sh",
     "test:coverage": "./node_modules/@magica11y/cauldron/build/test-coverage.sh",
-    "lint": "./node_modules/@magica11y/cauldron/build/lint.sh --ignore-path ./node_modules/@magica11y/cauldron/.eslintignore",
+    "lint": "./node_modules/@magica11y/cauldron/build/lint.sh",
     "lint:fix": "./node_modules/@magica11y/cauldron/build/lint-fix.sh",
     "typecheck": "./node_modules/@magica11y/cauldron/build/typecheck.sh",
     "release": "./node_modules/@magica11y/cauldron/build/release.sh",
@@ -61,7 +61,9 @@
     "lib"
   ],
   "dependencies": {
-    "@magica11y/cauldron": "^1.0.2",
+    "@magica11y/cauldron": "^1.0.6"
+  },
+  "devDependencies": {
     "webpack-merge": "^4.2.1"
   }
 }
