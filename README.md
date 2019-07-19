@@ -1,5 +1,3 @@
-![Magica11y](https://github.com/magica11y/cauldron/blob/master/assets/Magica11y-cover.jpg "Magica11y cover")
-
 :roller_coaster: `prefers-reduced-motion()`
 ===========================================
 > **Magica11y’s** `prefers-reduced-motion()` function detects user’s preferences for reduced motion using the
@@ -19,6 +17,8 @@
 [![node](https://img.shields.io/node/v/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "Node engine")](https://www.npmjs.com/package/@magica11y/prefers-reduced-motion)
 [![License](https://img.shields.io/github/license/magica11y/prefers-reduced-motion.svg?style=for-the-badge "MIT license")](LICENSE.md)
 ![Greenkeeper](https://badges.greenkeeper.io/magica11y/prefers-reduced-motion.svg?style=flat-square "Greenkeeper")
+
+![Magica11y cover](https://cdn.jsdelivr.net/gh/magica11y/cauldron@1.0.7/assets/Magica11y-cover.jpg "Magica11y cover")
 
 ---
 
