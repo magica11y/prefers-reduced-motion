@@ -3,7 +3,7 @@
   "homepage": "https://magica11y.github.io/magica11y",
   "version": "1.0.1",
   "description": "",
-  "module": "src/index.js",
+  "module": "lib/index.js",
   "browser": "dist/magica11y.prefers-reduced-motion.js",
   "scripts": {
     "build": "./node_modules/@magica11y/cauldron/build/build.sh",
