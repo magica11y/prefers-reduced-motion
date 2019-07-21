@@ -1,11 +1,6 @@
-:roller_coaster: `prefers-reduced-motion()`
-===========================================
-> **Magica11y’s** `prefers-reduced-motion()` function detects user’s preferences for reduced motion using the
-> [`'prefers-reduce-motion'`](https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion) [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
-> [level 5](https://drafts.csswg.org/mediaqueries-5) [media query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries).
->
-> The [`prefers-reduced-motion`](https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion) media query is used
-> to detect if the user has requested the system minimize the amount of animation or motion it uses.
+`prefersReducedMotion()`
+========================
+> Detects user’s preferences for reduced motion using the `prefers-reduce-motion` CSS3 level 5 media query.
 
 [![Travis](https://img.shields.io/travis/com/magica11y/prefers-reduced-motion.svg?style=for-the-badge)](https://travis-ci.com/magica11y/prefers-reduced-motion)
 [![npm](https://img.shields.io/npm/v/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/prefers-reduced-motion)
@@ -20,22 +15,26 @@
 
 ![Magica11y cover](https://cdn.jsdelivr.net/gh/magica11y/cauldron@1.0.7/assets/Magica11y-cover.jpg "Magica11y cover")
 
----
 
 # :sparkles: Introduction
 
-**Magica11y** provides a suite of functions to detect “user-preference” and “environment” media features.
+Quoting from the [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) [level 5](https://drafts.csswg.org/mediaqueries-5)
+[media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries) specfication…
 
-**Magica11y** functions are awesome because…
+> The [`prefers-reduced-motion`](https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion) media feature
+> is used to detect if the user has requested the system to minimize the amount of animation or motion it uses.
+
+:roller_coaster: `prefersReducedMotion()` is part of :crystal_ball: **Magica11y**,
+which provides a suite of functions to detect “user-preference” and “environment” media features.
+
+:crystal_ball: **Magica11y** functions are awesome because…
   * They have **zero** dependencies
-  * They’re **lightweight**; just [![Bundlephobia](https://img.shields.io/bundlephobia/minzip/@magica11y/prefers-reduced-motion.svg?style=flat-square&label "Bundle size (minified+gzipped)")](https://bundlephobia.com/result?p=@magica11y/prefers-reduced-motion)
+  * They’re **lightweight**; just [![Bundlephobia](https://img.shields.io/bundlephobia/min/@magica11y/prefers-reduced-motion.svg?style=flat-square&label "Bundle size (minified)")](https://bundlephobia.com/result?p=@magica11y/prefers-reduced-motion) minified, or [![Bundlephobia](https://img.shields.io/bundlephobia/minzip/@magica11y/prefers-reduced-motion.svg?style=flat-square&label "Bundle size (minified+gzipped)")](https://bundlephobia.com/result?p=@magica11y/prefers-reduced-motion) minified & gzippd
   * They use the **[`window.matchMedia`](https://developer.mozilla.org/docs/Web/API/Window/matchMedia)** API underneath
   * They’re optimized for **performance**; all the module functions are designed in such a way that they exit early
   * They provide a **clean**, **well-documented** and **semantic** API to work with
 
-## :crystal_ball: Other Magica11y functions
-
-In addition to :roller_coaster: `prefersReducedMotion()`, **Magica11y** also provides…
+In addition to :roller_coaster: `prefersReducedMotion()`, :crystal_ball: **Magica11y** also provides…
 
   * :candle: [`lightLevel()`](https://github.com/magica11y/light-level)
   * :tv: [`environmentBlending()`](https://github.com/magica11y/environment-blending)
@@ -43,17 +42,50 @@ In addition to :roller_coaster: `prefersReducedMotion()`, **Magica11y** also pro
   * :gem: [`prefersReducedTransparency()`](https://github.com/magica11y/prefers-reduced-transparency)
   * :high_brightness: [`prefersContrast()`](https://github.com/magica11y/prefers-contrast)
 
----
+# :rocket: Getting started
 
-# :musical_score: Documentation
+## :building_construction: Installation
+
+You can install `prefersReducedMotion()` using a package manager such as [`yarn`](https://yarnpkg.com/en/package/@magica11y/prefers-reduced-motion) or [`npm`](https://www.npmjs.com/package/@magica11y/prefers-reduced-motion)…
+
+```sh
+$ yarn add "@magica11y/prefers-reduced-motion"
+# OR
+$ npm install --save "@magica11y/prefers-reduced-motion"
+```
+
+You can also include `prefersReducedMotion()` from a CDN on your page, such as [jsDelivr](https://www.jsdelivr.com/package/npm/@magica11y/prefers-reduced-motion) or [unpkg](https://unpkg.com/@magica11y/prefers-reduced-motion)…
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@magica11y/prefers-reduced-motion@1.0.2/dist/magica11y.prefersReducedMotion.min.js"></script>
+<!-- OR -->
+<script src="https://unpkg.com/@magica11y/prefers-reduced-motion@1.0.2/dist/magica11y.prefersReducedMotion.js"></script>
+```
 
 ## :game_die: Usage
+
+`prefersReducedMotion()` is distributed as an [UMD](https://github.com/umdjs/umd) module, so you can use it as a browser global…
+
+```js
+var motionPreference = window.magica11y.prefersReducedMotion.default();
+var disableAnimations = (motionPreference === window.magica11y.prefersReducedMotion.motionPreferences.REDUCE);
+```
+
+… or as a CommonJS module…
+
+```js
+const prefersReducedMotion = require('@magica11y/prefers-reduced-motion');
+const motionPreference = prefersReducedMotion.default();
+const disableAnimations = (motionPreference === prefersReducedMotion.motionPreferences.REDUCE);
+```
+
+… or as an ES module…
 
 ```js
 import prefersReducedMotion, { motionPreferences } from '@magica11y/prefers-reduced-motion';
 
 const motionPreference = prefersReducedMotion();
-const disableAnimations = motionPreference === motionPreferences.REDUCE;
+const disableAnimations = (motionPreference === motionPreferences.REDUCE);
 ```
 
 The `motionPreferences` object contains all the possible values supported by the `'prefers-reduce-motion'` media query…
@@ -66,12 +98,6 @@ The `motionPreferences` object contains all the possible values supported by the
 * `null`
   > The user’s preference could not be determined.
 
-## :books: Further reading
-
-* [Change Accessibility Display preferences on Mac — Apple Support](https://support.apple.com/guide/mac-help/unac089/mac)
-* [Reduce screen motion on your iPhone, iPad, or iPod touch — Apple Support](https://support.apple.com/en-lamr/HT202655)
-
----
 
 # :checkered_flag: Typechecking
 
@@ -95,7 +121,12 @@ const motionPreference: ?MotionPreference = prefersReducedMotion();
 :tophat: **Note**: `prefersReducedMotion()` returns a [`nullable`](https://flow.org/en/docs/types/primitives/#toc-null-and-void)
 type (i.e. `MotionPreference`). So using the `?` prefix to indicate nullable types is recommended (i.e. `?MotionPreference`).
 
----
+
+# :books: Further reading
+
+* [Change Accessibility Display preferences on Mac — Apple Support](https://support.apple.com/guide/mac-help/unac089/mac)
+* [Reduce screen motion on your iPhone, iPad, or iPod touch — Apple Support](https://support.apple.com/en-lamr/HT202655)
+
 
 # :scroll: License
 
