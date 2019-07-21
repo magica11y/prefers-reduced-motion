@@ -4,7 +4,7 @@
   "version": "1.0.2",
   "description": "",
   "module": "lib/index.js",
-  "browser": "dist/magica11y.prefers-reduced-motion.js",
+  "browser": "dist/magica11y.prefersReducedMotion.js",
   "scripts": {
     "build": "./node_modules/@magica11y/cauldron/build/build.sh",
     "build:dist": "./node_modules/@magica11y/cauldron/build/build-dist.sh",
