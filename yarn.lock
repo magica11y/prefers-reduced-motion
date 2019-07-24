@@ -753,10 +753,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@magica11y/cauldron@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@magica11y/cauldron/-/cauldron-1.0.10.tgz#67771791486403de359963176594f30e83c69acd"
-  integrity sha512-K/fvzSq+clbpe/ldKLRNs3EkOo6fBzIHTn6xQyv3W+my3GUXikMcT2Lw4pdYNCDXotjXk+4f6embZxHOxOANIQ==
+"@magica11y/cauldron@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@magica11y/cauldron/-/cauldron-1.0.11.tgz#c504e1b23ff61ca19f4e84e7e174e0cd622e780e"
+  integrity sha512-zfqUf3aRyyoBVJ+DtE1lNwfviXnxcJjwUEVN2equpBynqLnxXJ/S4qVQ5fUWZzYNX2iBaIoF8KxxQArqvhoEIQ==
   dependencies:
     "@babel/cli" "^7.4.4"
     "@babel/core" "^7.4.5"
