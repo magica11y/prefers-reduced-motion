@@ -57,9 +57,9 @@ $ npm install --save "@magica11y/prefers-reduced-motion"
 You can also include `prefersReducedMotion()` from a CDN on your page, such as [jsDelivr](https://www.jsdelivr.com/package/npm/@magica11y/prefers-reduced-motion) or [unpkg](https://unpkg.com/@magica11y/prefers-reduced-motion)…
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@magica11y/prefers-reduced-motion@1.0.2/dist/magica11y.prefersReducedMotion.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@magica11y/prefers-reduced-motion@latest/dist/magica11y.prefersReducedMotion.min.js"></script>
 <!-- OR -->
-<script src="https://unpkg.com/@magica11y/prefers-reduced-motion@1.0.2/dist/magica11y.prefersReducedMotion.js"></script>
+<script src="https://unpkg.com/@magica11y/prefers-reduced-motion@latest/dist/magica11y.prefersReducedMotion.js"></script>
 ```
 
 ## :game_die: Usage
