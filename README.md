@@ -13,7 +13,7 @@
 [![License](https://img.shields.io/github/license/magica11y/prefers-reduced-motion.svg?style=for-the-badge "MIT license")](LICENSE.md)
 ![Greenkeeper](https://badges.greenkeeper.io/magica11y/prefers-reduced-motion.svg?style=flat-square "Greenkeeper")
 
-![Magica11y cover](https://cdn.jsdelivr.net/gh/magica11y/cauldron@1.0.7/assets/Magica11y-cover.jpg "Magica11y cover")
+[![Magica11y cover](https://cdn.jsdelivr.net/gh/magica11y/cauldron@1.0.7/assets/Magica11y-cover.jpg "Magica11y cover")](https://magica11y.github.io)
 
 
 # :sparkles: Introduction
@@ -24,17 +24,17 @@ Quoting from the [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) [
 > The [`prefers-reduced-motion`](https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion) media feature
 > is used to detect if the user has requested the system to minimize the amount of animation or motion it uses.
 
-:roller_coaster: `prefersReducedMotion()` is part of :crystal_ball: **Magica11y**,
+:roller_coaster: **`prefersReducedMotion()`** is part of :crystal_ball: [**Magica11y**](https://magica11y.github.io),
 which provides a suite of functions to detect “user-preference” and “environment” media features.
 
-:crystal_ball: **Magica11y** functions are awesome because…
+[Magica11y](https://magica11y.github.io) functions are awesome because…
   * They have **zero** dependencies
-  * They’re **lightweight**; just [![Bundlephobia](https://img.shields.io/bundlephobia/min/@magica11y/prefers-reduced-motion.svg?style=flat-square&label "Bundle size (minified)")](https://bundlephobia.com/result?p=@magica11y/prefers-reduced-motion) minified, or [![Bundlephobia](https://img.shields.io/bundlephobia/minzip/@magica11y/prefers-reduced-motion.svg?style=flat-square&label "Bundle size (minified+gzipped)")](https://bundlephobia.com/result?p=@magica11y/prefers-reduced-motion) minified & gzippd
+  * They’re **lightweight**; e.g. `prefersReducedMotion()` is just [![Bundlephobia](https://img.shields.io/bundlephobia/min/@magica11y/prefers-reduced-motion.svg?style=flat-square&label "Bundle size (minified)")](https://bundlephobia.com/result?p=@magica11y/prefers-reduced-motion) minified, or [![Bundlephobia](https://img.shields.io/bundlephobia/minzip/@magica11y/prefers-reduced-motion.svg?style=flat-square&label "Bundle size (minified+gzipped)")](https://bundlephobia.com/result?p=@magica11y/prefers-reduced-motion) minified & gzipp’d
   * They use the **[`window.matchMedia`](https://developer.mozilla.org/docs/Web/API/Window/matchMedia)** API underneath
   * They’re optimized for **performance**; all the module functions are designed in such a way that they exit early
   * They provide a **clean**, **well-documented** and **semantic** API to work with
 
-In addition to :roller_coaster: `prefersReducedMotion()`, :crystal_ball: **Magica11y** also provides…
+In addition to `prefersReducedMotion()`, [Magica11y](https://magica11y.github.io) also provides…
 
   * :candle: [`lightLevel()`](https://github.com/magica11y/light-level)
   * :tv: [`environmentBlending()`](https://github.com/magica11y/environment-blending)
@@ -64,7 +64,7 @@ You can also include `prefersReducedMotion()` from a CDN on your page, such as [
 
 ## :game_die: Usage
 
-`prefersReducedMotion()` is distributed as an [UMD](https://github.com/umdjs/umd) module, so you can use it as a browser global…
+`prefersReducedMotion()` is distributed as a [UMD](https://github.com/umdjs/umd) module, so you can use it as a browser global…
 
 ```js
 var motionPreference = window.magica11y.prefersReducedMotion.default();
