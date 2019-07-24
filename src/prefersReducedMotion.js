@@ -4,7 +4,6 @@ import matchUserPreference from '@magica11y/cauldron';
 
 import motionPreferences, { type MotionPreference } from './motionPreferences';
 
-// See https://github.com/magica11y/magica11y/issues/1
 const motionPreferenceValues: Array<MotionPreference> = [motionPreferences.NO_PREFERENCE, motionPreferences.REDUCE];
 
 /**
