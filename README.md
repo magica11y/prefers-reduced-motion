@@ -1,6 +1,6 @@
 `prefersReducedMotion()`
 ========================
-> Detects user’s preferences for reduced motion using the 'prefers-reduce-motion' CSS3 level 5 media query.
+> Detects user’s preferences for reduced motion using the `prefers-reduce-motion` CSS3 level 5 media query.
 
 [![Travis](https://img.shields.io/travis/com/magica11y/prefers-reduced-motion.svg?style=for-the-badge)](https://travis-ci.com/magica11y/prefers-reduced-motion)
 [![npm](https://img.shields.io/npm/v/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/prefers-reduced-motion)
@@ -37,8 +37,10 @@ which provides a suite of functions to detect “user-preference” and “envir
 In addition to `prefersReducedMotion()`, [Magica11y](https://magica11y.github.io) also provides…
 
   * :tv: [`environmentBlending()`](https://github.com/magica11y/environment-blending)
-  * :last_quarter_moon: [`invertedColors()`](https://github.com/magica11y/inverted-colors)
+  * :new_moon: [`invertedColors()`](https://github.com/magica11y/inverted-colors)
   * :candle: [`lightLevel()`](https://github.com/magica11y/light-level)
+  * :art: [`forcedColors()`](https://github.com/magica11y/forced-colors)
+  * :last_quarter_moon: [`prefersColorScheme()`](https://github.com/magica11y/prefers-color-scheme)
   * :high_brightness: [`prefersContrast()`](https://github.com/magica11y/prefers-contrast)
   * :gem: [`prefersReducedTransparency()`](https://github.com/magica11y/prefers-reduced-transparency)
 
