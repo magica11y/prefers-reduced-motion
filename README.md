@@ -3,15 +3,15 @@
 > Detects user’s preferences for reduced motion using the `prefers-reduce-motion` CSS3 level 5 media query.
 
 [![Travis](https://img.shields.io/travis/com/magica11y/prefers-reduced-motion.svg?style=for-the-badge)](https://travis-ci.com/magica11y/prefers-reduced-motion)
-[![npm](https://img.shields.io/npm/v/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/prefers-reduced-motion)
+[![NPM](https://img.shields.io/npm/v/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/prefers-reduced-motion)
 [![Bundlephobia](https://img.shields.io/bundlephobia/min/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "Bundle size (minified)")](https://bundlephobia.com/result?p=@magica11y/prefers-reduced-motion)
 [![Bundlephobia](https://img.shields.io/bundlephobia/minzip/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "Bundle size (minified+gzipped)")](https://bundlephobia.com/result?p=@magica11y/prefers-reduced-motion)
 [![Coveralls](https://img.shields.io/coveralls/magica11y/prefers-reduced-motion.svg?style=for-the-badge "Test coverage status")](https://coveralls.io/r/magica11y/prefers-reduced-motion)
-[![David](https://img.shields.io/david/magica11y/prefers-reduced-motion.svg?style=for-the-badge "Dependencies")](https://david-dm.org/magica11y/prefers-reduced-motion)
-[![David](https://img.shields.io/david/dev/magica11y/prefers-reduced-motion.svg?style=for-the-badge "Dev Dependencies")](https://david-dm.org/magica11y/prefers-reduced-motion?type=dev)
-[![node](https://img.shields.io/node/v/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "Node engine")](https://www.npmjs.com/package/@magica11y/prefers-reduced-motion)
+[![David DM](https://img.shields.io/david/magica11y/prefers-reduced-motion.svg?style=for-the-badge "Dependencies")](https://david-dm.org/magica11y/prefers-reduced-motion)
+[![David DM](https://img.shields.io/david/dev/magica11y/prefers-reduced-motion.svg?style=for-the-badge "Dev Dependencies")](https://david-dm.org/magica11y/prefers-reduced-motion?type=dev)
+[![NodeJS](https://img.shields.io/node/v/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "Node engine")](https://www.npmjs.com/package/@magica11y/prefers-reduced-motion)
 [![License](https://img.shields.io/github/license/magica11y/prefers-reduced-motion.svg?style=for-the-badge "MIT license")](LICENSE.md)
-![Greenkeeper](https://badges.greenkeeper.io/magica11y/prefers-reduced-motion.svg?style=flat-square "Greenkeeper")
+[![Snyk](https://img.shields.io/snyk/vulnerabilities/github/magica11y/prefers-reduced-motion?style=for-the-badge "Snyk vulnerabilities status")](https://snyk.io/test/github/magica11y/prefers-reduced-motion?targetFile=package.json)
 
 [![Magica11y cover](https://cdn.jsdelivr.net/gh/magica11y/cauldron@1.0.7/assets/Magica11y-cover.jpg "Magica11y cover")](https://magica11y.github.io)
 
@@ -136,6 +136,6 @@ type (i.e. `MotionPreference`). So using the `?` prefix to indicate nullable typ
 
 See [LICENSE.md](LICENSE.md) for more details.
 
-Handcrafted with :heart: by [Rishabh Rao](https://github.com/rishabhsrao).
+Handcrafted with :heart: by [Rishabh](https://github.com/rishabh-ink).
 
-[![Twitter](https://img.shields.io/twitter/follow/rishabhsrao.svg?style=social)](https://twitter.com/rishabhsrao)
+[![Twitter](https://img.shields.io/twitter/follow/rishabh_ink.svg?style=social)](https://twitter.com/rishabh_ink)
