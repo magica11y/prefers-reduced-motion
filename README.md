@@ -136,6 +136,6 @@ type (i.e. `MotionPreference`). So using the `?` prefix to indicate nullable typ
 
 See [LICENSE.md](LICENSE.md) for more details.
 
-Handcrafted with :heart: by [Rishabh](https://github.com/rishabh-ink).
+Handcrafted with :heart: by [Rishabh](https://rishabh.ink).
 
 [![Twitter](https://img.shields.io/twitter/follow/rishabh_ink.svg?style=social)](https://twitter.com/rishabh_ink)
