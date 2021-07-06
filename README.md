@@ -6,7 +6,7 @@
 [![NPM](https://img.shields.io/npm/v/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/prefers-reduced-motion)
 [![Bundlephobia](https://img.shields.io/bundlephobia/min/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "Bundle size (minified)")](https://bundlephobia.com/result?p=@magica11y/prefers-reduced-motion)
 [![Bundlephobia](https://img.shields.io/bundlephobia/minzip/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "Bundle size (minified+gzipped)")](https://bundlephobia.com/result?p=@magica11y/prefers-reduced-motion)
-[![Coveralls](https://img.shields.io/coveralls/magica11y/prefers-reduced-motion.svg?style=for-the-badge "Test coverage status")](https://coveralls.io/r/magica11y/prefers-reduced-motion)
+[![Coveralls](https://img.shields.io/coveralls/github/magica11y/prefers-reduced-motion.svg?style=for-the-badge "Test coverage status")](https://coveralls.io/github/magica11y/prefers-reduced-motion)
 [![David DM](https://img.shields.io/david/magica11y/prefers-reduced-motion.svg?style=for-the-badge "Dependencies")](https://david-dm.org/magica11y/prefers-reduced-motion)
 [![David DM](https://img.shields.io/david/dev/magica11y/prefers-reduced-motion.svg?style=for-the-badge "Dev Dependencies")](https://david-dm.org/magica11y/prefers-reduced-motion?type=dev)
 [![NodeJS](https://img.shields.io/node/v/@magica11y/prefers-reduced-motion.svg?style=for-the-badge "Node engine")](https://www.npmjs.com/package/@magica11y/prefers-reduced-motion)
