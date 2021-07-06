@@ -1,14 +1,16 @@
 // See https://webpack.js.org/configuration
 
-const cauldronWebpackConfig = require('@magica11y/cauldron/webpack.config.js');
+const cauldronWebpackConfig = require('@magica11y/cauldron/webpack.config');
 const path = require('path');
-const webpackMerge = require('webpack-merge');
+const { customizeObject, mergeWithCustomize } = require('webpack-merge');
 
-const webpackMergeWithStrategy = webpackMerge.strategy({
-  entry: 'replace',
+const webpackMergeWithCustomization = mergeWithCustomize({
+  customizeObject: customizeObject({
+    entry: 'replace',
+  }),
 });
 
-module.exports = webpackMergeWithStrategy(cauldronWebpackConfig, {
+module.exports = webpackMergeWithCustomization(cauldronWebpackConfig, {
   entry: {
     prefersReducedMotion: './src',
   },
