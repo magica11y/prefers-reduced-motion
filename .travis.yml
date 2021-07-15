@@ -6,7 +6,7 @@ script:
 deploy:
   provider: npm
   skip_cleanup: true
-  email: rishabhsrao@gmail.com
+  email: rishabh.ink+travis@gmail.com
   api_key:
     # Secure token generated and added using:
     #     $ travis encrypt --com {{raw NPM token}} --add 'deploy.api_key'
