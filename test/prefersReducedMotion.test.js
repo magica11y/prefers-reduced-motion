@@ -1,6 +1,6 @@
 // @flow
 
-import mockWindowMatchMedia from '@magica11y/cauldron/lib/testing/mockWindowMatchMedia';
+import mockWindowMatchMedia from '@magica11y/match-user-preference/lib/testing/mockWindowMatchMedia';
 
 import prefersReducedMotion, { motionPreferences, type MotionPreference } from '../src';
 

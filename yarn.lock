@@ -1189,6 +1189,11 @@
     webpack "^5.42.1"
     webpack-cli "^4.7.2"
 
+"@magica11y/match-user-preference@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@magica11y/match-user-preference/-/match-user-preference-1.0.3.tgz#b8606dcd0c33a175f52330e8e3a3e09a88b23761"
+  integrity sha512-F9v3fxFB/5sfiNAYTzoG0ksxcrp5dDI5vWPgiJb/A1Gws4gHtYFEtrzuDSVyvf+bz48GH6+GT3juNa7XmCJ3dA==
+
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.2":
   version "2.1.8-no-fsevents.2"
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.2.tgz#e324c0a247a5567192dd7180647709d7e2faf94b"
