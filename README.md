@@ -18,10 +18,10 @@
 
 # :sparkles: Introduction
 
-Quoting from the [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) [level 5](https://drafts.csswg.org/mediaqueries-5)
+Quoting from the [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) [level 5](https://www.w3.org/TR/mediaqueries-5)
 [media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries) specfication…
 
-> The [`prefers-reduced-motion`](https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion) media feature
+> The [`prefers-reduced-motion`](https://www.w3.org/TR/mediaqueries-5/#prefers-reduced-motion) media feature
 > is used to detect if the user has requested the system to minimize the amount of animation or motion it uses.
 
 :roller_coaster: **`prefersReducedMotion()`** is part of :crystal_ball: [**Magica11y**](https://magica11y.github.io),
@@ -37,9 +37,9 @@ which provides a suite of functions to detect “user-preference” and “envir
 In addition to `prefersReducedMotion()`, [Magica11y](https://magica11y.github.io) also provides…
 
   * :tv: [`environmentBlending()`](https://github.com/magica11y/environment-blending)
-  * :new_moon: [`invertedColors()`](https://github.com/magica11y/inverted-colors)
-  * :candle: [`lightLevel()`](https://github.com/magica11y/light-level)
   * :art: [`forcedColors()`](https://github.com/magica11y/forced-colors)
+  * :new_moon: [`invertedColors()`](https://github.com/magica11y/inverted-colors)
+  * ~:candle: [`lightLevel()`](https://github.com/magica11y/light-level)~
   * :last_quarter_moon: [`prefersColorScheme()`](https://github.com/magica11y/prefers-color-scheme)
   * :high_brightness: [`prefersContrast()`](https://github.com/magica11y/prefers-contrast)
   * :gem: [`prefersReducedTransparency()`](https://github.com/magica11y/prefers-reduced-transparency)
@@ -92,9 +92,9 @@ const disableAnimations = (motionPreference === motionPreferences.REDUCE);
 
 The `motionPreferences` object contains all the possible values supported by the `'prefers-reduce-motion'` media query…
 
-* `motionPreferences.NO_PREFERENCE` (spec: [`'no-preference'`](https://drafts.csswg.org/mediaqueries-5/#valdef-media-prefers-reduced-motion-no-preference))
+* `motionPreferences.NO_PREFERENCE` (spec: [`'no-preference'`](https://www.w3.org/TR/mediaqueries-5/#valdef-media-prefers-reduced-motion-no-preference))
   > Indicates that the user has made no preference known to the system.
-* `motionPreferences.REDUCE` (spec: [`'reduce'`](https://drafts.csswg.org/mediaqueries-5/#valdef-media-prefers-reduced-motion-reduce))
+* `motionPreferences.REDUCE` (spec: [`'reduce'`](https://www.w3.org/TR/mediaqueries-5/#valdef-media-prefers-reduced-motion-reduce))
   > Indicates that user has notified the system that they prefer an interface that minimizes the amount of movement or animation,
   > preferably to the point where all non-essential movement is removed.
 * `null`
