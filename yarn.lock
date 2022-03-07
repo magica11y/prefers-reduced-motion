@@ -1189,10 +1189,10 @@
     webpack "^5.42.1"
     webpack-cli "^4.7.2"
 
-"@magica11y/match-user-preference@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@magica11y/match-user-preference/-/match-user-preference-1.0.4.tgz#4e0cb7a54eefc71348353410c6b333ac39601330"
-  integrity sha512-3OQEY/jTqNqG6XrxpzWvfSKefaBOXD/e7QmSR8k3YiuYhatIDcadvbRRgJ6h6/Ip/WzzbLdPPmQq/L+SMfGf5g==
+"@magica11y/match-user-preference@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@magica11y/match-user-preference/-/match-user-preference-1.0.5.tgz#3c4f446aab5332ef10c02b718e004a7d25baa9e2"
+  integrity sha512-PTtV8SPGNIqrNj9DDg34kX8ng4hS6abyDGTAu611x2st+beYoeeBhOseDExb3SiUhYBUrqcujw3/OJ1RH9sepg==
 
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.2":
   version "2.1.8-no-fsevents.2"
