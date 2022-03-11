@@ -3,6 +3,7 @@
   "homepage": "https://magica11y.github.io",
   "version": "1.0.10",
   "description": "Detects user’s preferences for reduced motion using the 'prefers-reduce-motion' CSS3 level 5 media query.",
+  "main": "lib/index.js",
   "module": "lib/index.js",
   "browser": "dist/magica11y.prefersReducedMotion.js",
   "scripts": {
