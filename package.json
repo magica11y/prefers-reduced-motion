@@ -59,7 +59,8 @@
   "files": [
     "build",
     "dist",
-    "lib"
+    "lib",
+    "src"
   ],
   "dependencies": {
     "@magica11y/match-user-preference": "^1.0.5"
