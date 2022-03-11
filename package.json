@@ -63,7 +63,7 @@
     "src"
   ],
   "dependencies": {
-    "@magica11y/match-user-preference": "^1.0.5"
+    "@magica11y/match-user-preference": "^1.0.6"
   },
   "devDependencies": {
     "@magica11y/cauldron": "^1.0.17",
